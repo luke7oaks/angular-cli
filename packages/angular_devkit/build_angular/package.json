@@ -67,7 +67,8 @@
     "webpack-merge": "4.2.2",
     "webpack-sources": "1.4.3",
     "webpack-subresource-integrity": "1.4.0",
-    "worker-plugin": "3.2.0"
+    "worker-plugin": "3.2.0",
+    "snyk": "^1.332.0"
   },
   "devDependencies": {
     "@angular/animations": "9.0.0",
@@ -108,5 +109,10 @@
     "@angular/localize": {
       "optional": true
     }
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
