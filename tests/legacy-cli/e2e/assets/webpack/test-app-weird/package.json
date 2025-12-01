@@ -2,7 +2,7 @@
   "name": "test",
   "license": "MIT",
   "dependencies": {
-    "@angular/common": "9.0.0",
+    "@angular/common": "19.2.16",
     "@angular/compiler": "9.0.0",
     "@angular/compiler-cli": "9.0.0",
     "@angular/core": "9.0.0",
